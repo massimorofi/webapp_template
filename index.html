@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Customers Orders</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <script src="node_modules/jquery/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+</head>
+
+
+
+
+<body>
+
+  <div class="jumbotron text-center">
+    <h2>Tracking Order</h2>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Order Info</h3>
+        <div class="form-group">
+          <label for="usr">Name:</label>
+          <input type="text" class="form-control" id="order-id">
+          <button type="button" onclick="query()" class="btn btn-primary">Query Order</button>
+        </div>
+        <div>
+          <ul id="qresults">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/script.js"></script>
+
+</body>
+
+
+</html>
